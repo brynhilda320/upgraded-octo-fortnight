@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: grey;
+}
+
+.weather-body {
+  position: relative;
+  margin: 100px auto auto auto;
+  max-width: 1100px;
+  background: white;
+  box-shadow: 7px 7px 7px -7px black;
+  min-height: 300px;
+  border-radius: 10px;
+}
+
+.WeatherDay {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+.WeatherDay ul {
+  list-style-type: none;
+}
+.WeatherDay .StrikeOne {
+  background: url("img/Strike2.png");
+  width: 40px;
+  height: 53px;
+  position: relative;
+  top: 20px;
+}
+.WeatherDay .StrikeTwo {
+  background: url("img/Strike1.png");
+  width: 40px;
+  height: 53px;
+  position: relative;
+  top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
