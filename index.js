@@ -108,6 +108,32 @@ let weather = [
   rain: false,
 
 },
+          {
+  date:1563984000000    ,
+           day: '24.07.2019',
+  temperature:
+  {
+    night: 11,
+    day: 21,
+  },
+  cloudiness: 'Sunny ',
+  snow: false,
+  rain: false,
+
+},
+          {
+  date:1564070400000    ,
+           day: '25.07.2019',
+  temperature:
+  {
+    night: 11,
+    day: 21,
+  },
+  cloudiness: 'Sunny ',
+  snow: false,
+  rain: false,
+
+},
 ];
 
 let d = new Date();
